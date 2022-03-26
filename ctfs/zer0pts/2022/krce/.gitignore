@@ -1,0 +1,8 @@
+rootfs/
+src/
+bzImage
+init
+rootfs.cpio
+start-qemu.sh
+kernel.elf
+libc-gadgets.txt

@@ -32,7 +32,7 @@ long buffer_show(int32_t index, char *data, int32_t size) {
 
 Exploitation overview:
 
-* Get `buffer[0]` to point to `buffer[1]`, using write to the `__this_module` pointer stored in the `module_fops` structure.
+* Get `buffer[0]` to point to `buffer[1]`, by writing to the `__this_module` pointer stored in the `module_fops` structure.
 * Use that to get generic write-what-where and read-what-where primitives in the kernel.
 * Find `init_task` and our `task_struct`.
 * Copy creds from `init_task` to our `task_struct`.

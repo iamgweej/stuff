@@ -4,5 +4,5 @@
 
 ### zer0pts 2022
 
-* [sbxnote](ctfs/zer0pts/2022/sbxnote)
-* [krce](ctfs/zer0pts/2022/krce)
+* [sbxnote](ctfs/2022/zer0pts/sbxnote)
+* [krce](ctfs/2022/zer0pts/krce)
